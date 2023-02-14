@@ -1,0 +1,44 @@
+﻿@page
+@model Projekt3.Pages.Client.IndexModel
+@{
+}
+
+<h1> List of Clients </h1>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+    <button type="button" class="btn btn-primary"> <a asp-area="" asp-page="/Client/Create" class="text-dark">Add Client</a></button>
+        <div class="container">
+            <div class="navbar-header">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Id</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Phone</th>
+                            <th scope="col">Address</th>
+                            <th scope="col">Created At</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    @foreach(var item in Model.listClients)
+                    {
+                        <tr>
+                            <td>@item.id</td>
+                            <td>@item.name</td>
+                            <td>@item.email</td>
+                            <td>@item.phone</td>
+                            <td>@item.adress</td>
+                            <td>@item.created_at</td>
+                            <td>
+                                <p><a href="/Client/Edit?id=@item.id" >  Edit </a></p>
+                                <p><a href="/Client/Delete?id=@item.id">  Delete </a></p>
+                            </td>
+                        </tr>                
+                    }
+                </tbody>
+                </table>
+                </div>
+                </div>
+                </div>

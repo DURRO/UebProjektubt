@@ -1,0 +1,8 @@
+C:\Users\duri0\source\repos\Projekt3\Projekt3\obj\Release\net6.0\Projekt3.csproj.AssemblyReference.cache
+C:\Users\duri0\source\repos\Projekt3\Projekt3\obj\Release\net6.0\Projekt3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\duri0\source\repos\Projekt3\Projekt3\obj\Release\net6.0\Projekt3.AssemblyInfoInputs.cache
+C:\Users\duri0\source\repos\Projekt3\Projekt3\obj\Release\net6.0\Projekt3.AssemblyInfo.cs
+C:\Users\duri0\source\repos\Projekt3\Projekt3\obj\Release\net6.0\Projekt3.csproj.CoreCompileInputs.cache
+C:\Users\duri0\source\repos\Projekt3\Projekt3\obj\Release\net6.0\Projekt3.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\duri0\source\repos\Projekt3\Projekt3\obj\Release\net6.0\Projekt3.RazorAssemblyInfo.cache
+C:\Users\duri0\source\repos\Projekt3\Projekt3\obj\Release\net6.0\Projekt3.RazorAssemblyInfo.cs

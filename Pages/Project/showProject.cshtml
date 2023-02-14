@@ -1,0 +1,44 @@
+﻿@page
+@model Projekt3.Pages.Client.showProjectModel
+@{
+}
+
+
+<h1> List of Project </h1>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <button type="button" class="btn btn-primary"> <a asp-area="" asp-page="/Client/Create" class="text-dark">Add Projekt</a></button>
+    <div class="container">
+        <div class="navbar-header">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">project_manager</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Salary</th>
+                        <th scope="col">Client</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var item in Model.listProject)
+                    {
+                    <tr>
+                        <td>@item.id</td>
+                        <td>@item.title</td>
+                        <td>@item.project_manager</td>
+                        <td>@item.status</td>
+                        <td>@item.salary</td>
+                        <td>@item.id</td>
+                    </tr>
+                     <p><a href="/Client/Edit?id=@item.id">  Edit </a></p>
+                     <p><a href="/Client/Delete?id=@item.id">  Delete </a></p>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<h1> List of Clients </h1>
+</div>
